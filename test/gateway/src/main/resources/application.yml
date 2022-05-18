@@ -1,10 +1,10 @@
 server:
   port:
-    8082
+    8080
 
 spring:
   application:
-    name: texte-service
+    name: gateway-service
 
   cloud:
     consul:
