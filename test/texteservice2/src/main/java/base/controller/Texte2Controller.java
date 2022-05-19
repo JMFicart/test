@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Texte2Controller {
-    @GetMapping("/gettext")
+    @GetMapping("/commonplace")
     public String getText(){
         return "ABCD";
     }

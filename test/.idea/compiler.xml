@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="texteservice2" />
+        <module name="gateway2" />
         <module name="texteservice1" />
         <module name="printservice" />
         <module name="gateway" />
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gateway" options="-parameters" />
+      <module name="gateway2" options="-parameters" />
       <module name="printservice" options="-parameters" />
       <module name="texteservice1" options="-parameters" />
       <module name="texteservice2" options="-parameters" />

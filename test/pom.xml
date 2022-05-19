@@ -8,7 +8,8 @@
 		<module>texteservice1</module>
 		<module>texteservice2</module>
 		<module>gateway</module>
-	</modules>
+        <module>gateway2</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

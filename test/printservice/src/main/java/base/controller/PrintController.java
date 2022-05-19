@@ -12,9 +12,9 @@ public class PrintController {
 
     private final RestTemplate resttemplate;
 
-    @GetMapping("/print")
+    @GetMapping("/commonplace")
     public String printcontroller(){
-        return resttemplate.getForObject("http://texte-service/gettext", String.class);
+        return resttemplate.getForObject("http://texte-service/commonplace", String.class);
     }
 
 
