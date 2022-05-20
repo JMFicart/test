@@ -1,0 +1,22 @@
+Communication
+	* Remote procedure (http)
+		- feign (quelle requête)
+		- load-balancer (à qui / où)
+		- circuit-breaker (et s'il y a des problèmes ?)
+
+	* AMQP
+		- Rabbit MQ / Kafka
+		- Spring Stream (couche d'abstract)
+	
+Observabilité
+	* Distributed tracing
+		- Zipkin (collecteur de données)
+		- Sleuth (envoyeur de données)
+		
+API Gateway
+	- Spring Gateway (définition de proxy déclaratif)
+	
+Discovery
+	- Consul server
+	- Consul diSCO
+	- actuator (health check)
